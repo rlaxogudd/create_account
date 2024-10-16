@@ -1,0 +1,143 @@
+p{
+  font-family: Merienda;
+  font-size: 14px;
+}
+body{
+  background-image: url(create_account_pics/picture.jpg);
+  background-color: #383838;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.kutu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.2);
+  height: 350px;
+  width: 580px;
+  border-radius: 30px;
+  margin-top: 100px;
+
+}
+
+.sol-taraf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  background-color: #efbd36;
+  border-top-left-radius:  30px;
+  border-bottom-left-radius: 30px;
+}
+
+.sağ-taraf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  width: 55%;
+}
+
+.sol-başlık{
+  font-family: Merienda;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.sağ-başlık{
+  font-family: Merienda;
+  font-style: italic;
+}
+
+.social-media{
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.insta-logo{
+  height: 24px;
+  width: 24px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.tv-logo{
+  height: 24px;
+  width: 24px;
+  border-radius: 15px; 
+  margin-right: 15px;
+}
+
+
+.pin-logo{
+  height: 24px;
+  width: 24px;
+  border-radius: 15px;
+}
+.pin-logo:hover,
+.tv-logo:hover,
+.insta-logo:hover{
+  cursor: pointer;
+}
+
+
+.giriş{
+  height: 28px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 8px;
+  outline: none;
+  border-style: none;
+  border-radius: 15px;
+}
+
+.singin{
+  padding: 8px 20px;
+  background-color: #efbd36;
+  border-radius: 20px;
+  border-style: solid;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+.singin:hover{
+  background-color: black;
+  color: #efbd36;
+}
+
+.singup{
+  padding: 8px 20px;
+  border-radius: 20px;
+  border-style: none;
+  font-weight: bold;
+  transition: 0.15s;
+  background-color: #efbd36;
+  color: black;
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.30);
+}
+
+.singup:hover{
+  background-color: black;
+  color: #efbd36;
+}
+
+.yazı{
+  margin-left: 20px;
+  margin-right: 16px;
+  padding-top: 0;
+  padding-bottom:10px;
+}
+.text{
+  font-size: 12px;
+}
